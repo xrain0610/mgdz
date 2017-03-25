@@ -1,0 +1,12 @@
+﻿import flash.utils.Dictionary;
+var ActiveConfig:Dictionary = new Dictionary();
+ActiveConfig[1] = {id:1,activeName:'日环任务',activeTime:'0',rewardDescription:'海量星力',level:30,launcher:118,restrictCount:10,description:'30级可在战争之城秀秀处接取，通过刷任务品质颜色来提高任务奖励，完成任务后可获得更丰富星力奖励。'};
+ActiveConfig[2] = {id:2,activeName:'喵阵营任务',activeTime:'0',rewardDescription:'海量经验',level:30,launcher:250,restrictCount:10,description:'30级可进入血腥之地，并在各自阵营将军处接取任务，完成任务后可获得海量的经验奖励。'};
+ActiveConfig[3] = {id:3,activeName:'汪阵营任务',activeTime:'0',rewardDescription:'海量经验',level:30,launcher:253,restrictCount:10,description:'30级可进入血腥之地，并在各自阵营将军处接取任务，完成任务后可获得海量的经验奖励。'};
+ActiveConfig[5] = {id:5,activeName:'公会任务',activeTime:'0',rewardDescription:'公会贡献',level:30,launcher:132,restrictCount:20,description:'加入公会后，可在战争之城公会大使茜茜处接取，完成任务后可获得丰富的经验和公会贡献、公会资金。'};
+ActiveConfig[6] = {id:6,activeName:'藏宝图',activeTime:'0',rewardDescription:'丰富道具',level:30,description:'获得藏宝图后，即可使用铲子到藏宝地点进行挖掘，紫色品质的藏宝图有几率挖出极品宠物。'};
+ActiveConfig[8] = {id:8,activeName:'喵喵护送',activeTime:'0',rewardDescription:'海量经验',level:35,launcher:104020,restrictCount:5,description:'35级可在喵喵城喵万里处接取，通过刷新镖车星级来提高奖励，完成后可获得海量经验奖励。'};
+ActiveConfig[9] = {id:9,activeName:'汪汪护送',activeTime:'0',rewardDescription:'海量经验',level:35,launcher:204020,restrictCount:5,description:'35级可在汪汪城汪万里处接取，通过刷新镖车星级来提高奖励，完成后可获得海量经验奖励。'};
+ActiveConfig[10] = {id:10,activeName:'试炼任务',activeTime:'0',rewardDescription:'海量经验',level:40,launcher:245,restrictCount:10,description:'40级可在战争之城试炼大师勇勇处接取，完成任务后可获得丰富的经验。（建议组队）'};
+ActiveConfig[11] = {id:11,activeName:'猎盗',activeTime:'15:00-16:00',rewardDescription:'海量铜币',level:30,description:'每天15:00-16:00，迷雾森林都会有几率出现一些惊世宝藏神盗，他们身上都藏着大量铜币，想要的就去找出他们行踪，并将之斩杀吧！'};
+ActiveConfig[12] = {id:12,activeName:'怪物攻城',activeTime:'19:00-20:00',rewardDescription:'经验奖励',level:30,description:'邪恶的怪物一直对喵汪城虎视眈眈。听说每晚19:00-20:00之时是其最为活跃的时候，如今天喵汪城已被攻下，请火速支援。'};

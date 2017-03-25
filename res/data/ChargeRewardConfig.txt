@@ -1,0 +1,15 @@
+﻿import flash.utils.Dictionary;
+var ChargeRewardConfig:Dictionary = new Dictionary();
+ChargeRewardConfig[1] = {id:1,rewardId:1001,items:'120041_20_1|90001_20_1|30001_10_1|120005_10_1|30020_10_1|10009_3_1|10011_3_1|120000_1_1',effects:'1|1|1|1|1|1|1|1'};
+ChargeRewardConfig[2] = {id:2,rewardId:1002,items:'90001_30_1|120041_15_1|120035_2_1',effects:'1|1|1'};
+ChargeRewardConfig[3] = {id:3,rewardId:1003,items:'120007_45_1',effects:'1'};
+ChargeRewardConfig[4] = {id:4,rewardId:1004,items:'130003_99_1',effects:'1'};
+ChargeRewardConfig[5] = {id:5,rewardId:1005,items:'110001_20_1',effects:'1'};
+ChargeRewardConfig[6] = {id:6,rewardId:1006,items:'70001_5_1',effects:'1'};
+ChargeRewardConfig[7] = {id:7,rewardId:1007,items:'70001_10_1',effects:'1'};
+ChargeRewardConfig[8] = {id:8,rewardId:1008,items:'70001_15_1',effects:'1'};
+ChargeRewardConfig[9] = {id:9,rewardId:1009,items:'70001_20_1',effects:'1'};
+ChargeRewardConfig[10] = {id:10,rewardId:1010,items:'70001_25_1',effects:'1'};
+ChargeRewardConfig[11] = {id:11,rewardId:1011,items:'70001_30_1',effects:'1'};
+ChargeRewardConfig[12] = {id:12,rewardId:1012,items:'70001_35_1',effects:'1'};
+ChargeRewardConfig[13] = {id:13,rewardId:1013,items:'70001_40_1',effects:'1'};

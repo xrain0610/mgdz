@@ -1,0 +1,9 @@
+﻿import flash.utils.Dictionary;
+var OnlineGiftConfig:Dictionary = new Dictionary();
+OnlineGiftConfig[1] = {id:1,obtainTime:1,giftProps:'11001_10',description:'领取可获得10个龙猫狗不理'};
+OnlineGiftConfig[2] = {id:2,obtainTime:3,giftProps:'11001_10|12001_10',description:'领取可获得10个龙猫狗不理,10个龙泉粥'};
+OnlineGiftConfig[3] = {id:3,obtainTime:5,giftProps:'50001_1|50019_1',description:'领取可获得1个1.25倍打怪经验糖丸，1个1.5倍休息经验糖丸'};
+OnlineGiftConfig[4] = {id:4,obtainTime:15,giftProps:'10009_1|10011_1',description:'领取可获得1个初级生命石，1个初级魔法石'};
+OnlineGiftConfig[5] = {id:5,obtainTime:30,giftProps:'90001_5|120004_5',description:'领取可获得5个传送券,5个日环刷新书'};
+OnlineGiftConfig[6] = {id:6,obtainTime:60,giftProps:'10010_1|10012_1',description:'领取可获得1个中级生命石，1个中级魔法石'};
+OnlineGiftConfig[7] = {id:7,obtainTime:120,giftProps:'30001_5|30012_5',description:'领取可获得5个一星强化符，5个绿色洗练符'};

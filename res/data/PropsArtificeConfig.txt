@@ -1,0 +1,377 @@
+﻿import flash.utils.Dictionary;
+var PropsArtificeConfig:Dictionary = new Dictionary();
+PropsArtificeConfig[20102] = {
+id:20102,
+showType:'0_0',
+silver:800,
+rate:1000,
+materials:'20101_3',
+description:'需要三枚1级物理攻击宝石合成，增加物理攻击，威力比1级物理攻击宝石更强'
+};
+PropsArtificeConfig[20103] = {
+id:20103,
+showType:'0_0',
+silver:1600,
+rate:500,
+materials:'20102_3',
+description:'需要三枚2级物理攻击宝石合成，增加物理攻击，威力比2级物理攻击宝石更强'
+};
+PropsArtificeConfig[20104] = {
+id:20104,
+showType:'0_0',
+silver:3200,
+rate:500,
+materials:'20103_3',
+description:'需要三枚3级物理攻击宝石合成，增加物理攻击，威力比3级物理攻击宝石更强'
+};
+PropsArtificeConfig[20105] = {
+id:20105,
+showType:'0_0',
+silver:6400,
+rate:500,
+materials:'20104_3',
+description:'需要三枚4级物理攻击宝石合成，增加物理攻击，威力比4级物理攻击宝石更强'
+};
+PropsArtificeConfig[20202] = {
+id:20202,
+showType:'0_0',
+silver:800,
+rate:1000,
+materials:'20201_3',
+description:'需要三枚1级魔法攻击宝石合成，增加魔法攻击，威力比1级魔法攻击宝石更强'
+};
+PropsArtificeConfig[20203] = {
+id:20203,
+showType:'0_0',
+silver:1600,
+rate:500,
+materials:'20202_3',
+description:'需要三枚2级魔法攻击宝石合成，增加魔法攻击，威力比2级魔法攻击宝石更强'
+};
+PropsArtificeConfig[20204] = {
+id:20204,
+showType:'0_0',
+silver:3200,
+rate:500,
+materials:'20203_3',
+description:'需要三枚3级魔法攻击宝石合成，增加魔法攻击，威力比3级魔法攻击宝石更强'
+};
+PropsArtificeConfig[20205] = {
+id:20205,
+showType:'0_0',
+silver:6400,
+rate:500,
+materials:'20204_3',
+description:'需要三枚4级魔法攻击宝石合成，增加魔法攻击，威力比4级魔法攻击宝石更强'
+};
+PropsArtificeConfig[20302] = {
+id:20302,
+showType:'0_0',
+silver:800,
+rate:1000,
+materials:'20301_3',
+description:'需要三枚1级物理防御宝石合成，增加物理防御，威力比1级物理防御宝石更强'
+};
+PropsArtificeConfig[20303] = {
+id:20303,
+showType:'0_0',
+silver:1600,
+rate:500,
+materials:'20302_3',
+description:'需要三枚2级物理防御宝石合成，增加物理防御，威力比2级物理防御宝石更强'
+};
+PropsArtificeConfig[20304] = {
+id:20304,
+showType:'0_0',
+silver:3200,
+rate:500,
+materials:'20303_3',
+description:'需要三枚3级物理防御宝石合成，增加物理防御，威力比3级物理防御宝石更强'
+};
+PropsArtificeConfig[20305] = {
+id:20305,
+showType:'0_0',
+silver:6400,
+rate:500,
+materials:'20304_3',
+description:'需要三枚4级物理防御宝石合成，增加物理防御，威力比4级物理防御宝石更强'
+};
+PropsArtificeConfig[20402] = {
+id:20402,
+showType:'0_0',
+silver:800,
+rate:1000,
+materials:'20401_3',
+description:'需要三枚1级魔法防御宝石合成，增加魔法防御，威力比1级魔法防御宝石更强'
+};
+PropsArtificeConfig[20403] = {
+id:20403,
+showType:'0_0',
+silver:1600,
+rate:500,
+materials:'20402_3',
+description:'需要三枚2级魔法防御宝石合成，增加魔法防御，威力比2级魔法防御宝石更强'
+};
+PropsArtificeConfig[20404] = {
+id:20404,
+showType:'0_0',
+silver:3200,
+rate:500,
+materials:'20403_3',
+description:'需要三枚3级魔法防御宝石合成，增加魔法防御，威力比3级魔法攻击防御宝石更强'
+};
+PropsArtificeConfig[20405] = {
+id:20405,
+showType:'0_0',
+silver:6400,
+rate:500,
+materials:'20404_3',
+description:'需要三枚4级魔法防御宝石合成，增加魔法防御，威力比4级魔法攻击防御宝石更强'
+};
+PropsArtificeConfig[20502] = {
+id:20502,
+showType:'0_0',
+silver:800,
+rate:1000,
+materials:'20501_3',
+description:'需要三枚1级生命宝石合成，增加血量上限，威力比1级生命宝石更强'
+};
+PropsArtificeConfig[20503] = {
+id:20503,
+showType:'0_0',
+silver:1600,
+rate:500,
+materials:'20502_3',
+description:'需要三枚2级生命宝石合成，增加血量上限，威力比2级生命宝石更强'
+};
+PropsArtificeConfig[20504] = {
+id:20504,
+showType:'0_0',
+silver:3200,
+rate:500,
+materials:'20503_3',
+description:'需要三枚3级生命宝石合成，增加血量上限，威力比3级生命宝石更强'
+};
+PropsArtificeConfig[20505] = {
+id:20505,
+showType:'0_0',
+silver:6400,
+rate:500,
+materials:'20504_3',
+description:'需要三枚4级生命宝石合成，增加血量上限，威力比4级生命宝石更强'
+};
+PropsArtificeConfig[20702] = {
+id:20702,
+showType:'0_0',
+silver:800,
+rate:1000,
+materials:'20701_3',
+description:'需要三枚1级物理攻击暴击宝石合成，增加物理暴击，威力比1级物理攻击暴击宝石更强'
+};
+PropsArtificeConfig[20703] = {
+id:20703,
+showType:'0_0',
+silver:1600,
+rate:500,
+materials:'20702_3',
+description:'需要三枚2级物理攻击暴击宝石合成，增加物理暴击，威力比2级物理攻击暴击宝石更强'
+};
+PropsArtificeConfig[20704] = {
+id:20704,
+showType:'0_0',
+silver:3200,
+rate:500,
+materials:'20703_3',
+description:'需要三枚3级物理攻击暴击宝石合成，增加物理暴击，威力比3级物理攻击暴击宝石更强'
+};
+PropsArtificeConfig[20705] = {
+id:20705,
+showType:'0_0',
+silver:6400,
+rate:500,
+materials:'20704_3',
+description:'需要三枚4级物理攻击暴击宝石合成，增加物理暴击，威力比4级物理攻击暴击宝石更强'
+};
+PropsArtificeConfig[20802] = {
+id:20802,
+showType:'0_0',
+silver:800,
+rate:1000,
+materials:'20801_3',
+description:'需要三枚1级魔法攻击暴击宝石合成，增加魔法暴击，威力比1级魔法攻击暴击宝石更强'
+};
+PropsArtificeConfig[20803] = {
+id:20803,
+showType:'0_0',
+silver:1600,
+rate:500,
+materials:'20802_3',
+description:'需要三枚2级魔法攻击暴击宝石合成，增加魔法暴击，威力比2级魔法攻击暴击宝石更强'
+};
+PropsArtificeConfig[20804] = {
+id:20804,
+showType:'0_0',
+silver:3200,
+rate:500,
+materials:'20803_3',
+description:'需要三枚3级魔法攻击暴击宝石合成，增加魔法暴击，威力比3级魔法攻击暴击宝石更强'
+};
+PropsArtificeConfig[20805] = {
+id:20805,
+showType:'0_0',
+silver:6400,
+rate:500,
+materials:'20804_3',
+description:'需要三枚4级魔法攻击暴击宝石合成，增加魔法暴击，威力比4级魔法攻击暴击宝石更强'
+};
+PropsArtificeConfig[20902] = {
+id:20902,
+showType:'0_0',
+silver:800,
+rate:1000,
+materials:'20901_3',
+description:'需要三枚1级命中宝石合成，增加攻击命中，威力比1级命中宝石更强'
+};
+PropsArtificeConfig[20903] = {
+id:20903,
+showType:'0_0',
+silver:1600,
+rate:500,
+materials:'20902_3',
+description:'需要三枚2级命中宝石合成，增加攻击命中，威力比2级命中宝石更强'
+};
+PropsArtificeConfig[20904] = {
+id:20904,
+showType:'0_0',
+silver:3200,
+rate:500,
+materials:'20903_3',
+description:'需要三枚3级命中宝石合成，增加攻击命中，威力比3级命中宝石更强'
+};
+PropsArtificeConfig[20905] = {
+id:20905,
+showType:'0_0',
+silver:6400,
+rate:500,
+materials:'20904_3',
+description:'需要三枚4级命中宝石合成，增加攻击命中，威力比4级命中宝石更强'
+};
+PropsArtificeConfig[21002] = {
+id:21002,
+showType:'0_0',
+silver:800,
+rate:1000,
+materials:'21001_3',
+description:'需要三枚1级闪避宝石合成，增加自身闪避，威力比1级闪避宝石更强'
+};
+PropsArtificeConfig[21003] = {
+id:21003,
+showType:'0_0',
+silver:1600,
+rate:500,
+materials:'21002_3',
+description:'需要三枚2级闪避宝石合成，增加自身闪避，威力比2级闪避宝石更强'
+};
+PropsArtificeConfig[21004] = {
+id:21004,
+showType:'0_0',
+silver:3200,
+rate:500,
+materials:'21003_3',
+description:'需要三枚3级闪避宝石合成，增加自身闪避，威力比3级闪避宝石更强'
+};
+PropsArtificeConfig[21005] = {
+id:21005,
+showType:'0_0',
+silver:6400,
+rate:500,
+materials:'21004_3',
+description:'需要三枚4级闪避宝石合成，增加自身闪避，威力比4级闪避宝石更强'
+};
+﻿PropsArtificeConfig[30002] = {id:30002,showType:'1_0',silver:100,rate:1000,materials:'30001_2',description:'需要两张1星强化石，强化2星装备必备材料'};
+﻿PropsArtificeConfig[30003] = {id:30003,showType:'1_0',silver:180,rate:1000,materials:'30002_2',description:'需要两张2星强化石，强化3星装备必备材料'};
+﻿PropsArtificeConfig[30004] = {id:30004,showType:'1_0',silver:324,rate:1000,materials:'30003_2',description:'需要两张3星强化石，强化4星装备必备材料'};
+﻿PropsArtificeConfig[30005] = {id:30005,showType:'1_0',silver:583,rate:1000,materials:'30004_2',description:'需要两张4星强化石，强化5星装备必备材料'};
+﻿PropsArtificeConfig[30006] = {id:30006,showType:'1_0',silver:1049,rate:1000,materials:'30005_4',description:'需要两张5星强化石，强化6星装备必备材料'};
+﻿PropsArtificeConfig[30007] = {id:30007,showType:'1_0',silver:1888,rate:1000,materials:'30006_4',description:'需要两张6星强化石，强化7星装备必备材料'};
+﻿PropsArtificeConfig[30008] = {id:30008,showType:'1_0',silver:3398,rate:1000,materials:'30007_4',description:'需要两张7星强化石，强化8星装备必备材料'};
+﻿PropsArtificeConfig[30009] = {id:30009,showType:'1_0',silver:6116,rate:1000,materials:'30008_6',description:'需要两张8星强化石，强化9星装备必备材料'};
+﻿PropsArtificeConfig[30010] = {id:30010,showType:'1_0',silver:11008,rate:1000,materials:'30009_6',description:'需要两张9星强化石，强化10星装备必备材料'};
+﻿PropsArtificeConfig[30011] = {id:30011,showType:'1_0',silver:19814,rate:1000,materials:'30010_6',description:'需要两张10星强化石，强化11星装备必备材料'};
+﻿PropsArtificeConfig[30017] = {id:30017,showType:'1_0',silver:35665,rate:1000,materials:'30011_8',description:'需要两张11星强化石，强化12星装备必备材料'};
+﻿PropsArtificeConfig[30028] = {id:30028,showType:'1_0',silver:64197,rate:1000,materials:'30017_8',description:'需要两张12星强化石，强化13星装备必备材料'};
+﻿PropsArtificeConfig[30029] = {id:30029,showType:'1_0',silver:115554,rate:1000,materials:'30028_10',description:'需要两张13星强化石，强化14星装备必备材料'};
+﻿PropsArtificeConfig[30032] = {id:30032,showType:'1_0',silver:207997,rate:1000,materials:'30029_10',description:'需要两张14星强化石，强化15星装备必备材料'};
+﻿PropsArtificeConfig[30019] = {id:30019,showType:'1_1',silver:5000,rate:1000,materials:'30012_2',description:'需要两张绿色洗炼符，才可进行合成。'};
+﻿PropsArtificeConfig[30020] = {id:30020,showType:'1_1',silver:8000,rate:1000,materials:'30019_4',description:'需要两张蓝色洗炼符，才可进行合成。'};
+﻿PropsArtificeConfig[30021] = {id:30021,showType:'1_1',silver:12000,rate:1000,materials:'30020_6',description:'需要两张紫色洗炼符，才可进行合成。'};
+PropsArtificeConfig[30018] = {id:30018,showType:'1_2',silver:5000,rate:1000,materials:'30014_10',description:'需要十个40级紫色升阶，才可进行合成。'};
+PropsArtificeConfig[30033] = {id:30033,showType:'1_2',silver:5000,rate:1000,materials:'30018_15',description:'需要十五个50级紫色升阶符，才可进行合成。'};
+PropsArtificeConfig[30034] = {id:30034,showType:'1_2',silver:5000,rate:1000,materials:'30033_20',description:'需要二十个60级紫色升级符，才可进行合成。'};
+{id:30035,showType:'1_2',silver:5000,rate:1000,materials:'30034_25',description:'需要二十五个70级紫色升级符，才可进行合成。'};
+{id:30031,showType:'1_2',silver:8000,rate:1000,materials:'30027_10',description:'需要十个橙色碎片，才可进行合成。'};
+{id:30023,showType:'1_2',silver:12000,rate:1000,materials:'30033_10',description:'需要十个40级升级符，才可进行合成。'};
+{id:30024,showType:'1_2',silver:12000,rate:1000,materials:'30033_15',description:'需要十五50级升级符，才可进行合成。'};
+{id:30025,showType:'1_2',silver:12000,rate:1000,materials:'30024_20',description:'需要二十个60级升级符，才可进行合成。'};
+{id:30026,showType:'1_2',silver:12000,rate:1000,materials:'30025_25',description:'需要二十五个70个级升级符，才可进行合成。'};
+﻿PropsArtificeConfig[140032] = {id:140032,showType:'2_0',silver:5000,rate:100,materials:'140016_5|140024_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140033] = {id:140033,showType:'2_0',silver:5000,rate:100,materials:'140016_5|140024_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140034] = {id:140034,showType:'2_0',silver:5000,rate:100,materials:'140016_5|140024_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140035] = {id:140035,showType:'2_0',silver:5000,rate:100,materials:'140016_5|140024_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140036] = {id:140036,showType:'2_0',silver:5000,rate:100,materials:'140016_5|140024_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140037] = {id:140037,showType:'2_0',silver:5000,rate:100,materials:'140016_5|140024_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140038] = {id:140038,showType:'2_0',silver:5000,rate:100,materials:'140016_5|140024_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140039] = {id:140039,showType:'2_0',silver:5000,rate:100,materials:'140016_5|140024_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140040] = {id:140040,showType:'2_0',silver:5000,rate:100,materials:'140016_5|140024_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140041] = {id:140041,showType:'2_0',silver:5000,rate:100,materials:'140016_5|140024_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140042] = {id:140042,showType:'2_1',silver:10000,rate:100,materials:'140017_5|140025_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140043] = {id:140043,showType:'2_1',silver:10000,rate:100,materials:'140017_5|140025_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140044] = {id:140044,showType:'2_1',silver:10000,rate:100,materials:'140017_5|140025_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140045] = {id:140045,showType:'2_1',silver:10000,rate:100,materials:'140017_5|140025_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140046] = {id:140046,showType:'2_1',silver:10000,rate:100,materials:'140017_5|140025_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140047] = {id:140047,showType:'2_1',silver:10000,rate:100,materials:'140017_5|140025_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140048] = {id:140048,showType:'2_1',silver:10000,rate:100,materials:'140017_5|140025_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140049] = {id:140049,showType:'2_1',silver:10000,rate:100,materials:'140017_5|140025_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140050] = {id:140050,showType:'2_1',silver:10000,rate:100,materials:'140017_5|140025_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140051] = {id:140051,showType:'2_1',silver:10000,rate:100,materials:'140017_5|140025_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140052] = {id:140052,showType:'2_2',silver:15000,rate:100,materials:'140018_5|140026_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140053] = {id:140053,showType:'2_2',silver:15000,rate:100,materials:'140018_5|140026_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140054] = {id:140054,showType:'2_2',silver:15000,rate:100,materials:'140018_5|140026_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140055] = {id:140055,showType:'2_2',silver:15000,rate:100,materials:'140018_5|140026_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140056] = {id:140056,showType:'2_2',silver:15000,rate:100,materials:'140018_5|140026_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140057] = {id:140057,showType:'2_2',silver:15000,rate:100,materials:'140018_5|140026_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140058] = {id:140058,showType:'2_2',silver:15000,rate:100,materials:'140018_5|140026_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140059] = {id:140059,showType:'2_2',silver:15000,rate:100,materials:'140018_5|140026_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140060] = {id:140060,showType:'2_2',silver:15000,rate:100,materials:'140018_5|140026_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140061] = {id:140061,showType:'2_2',silver:15000,rate:100,materials:'140018_5|140026_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140062] = {id:140062,showType:'2_3',silver:20000,rate:100,materials:'140019_5|140027_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140063] = {id:140063,showType:'2_3',silver:20000,rate:100,materials:'140019_5|140027_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140064] = {id:140064,showType:'2_3',silver:20000,rate:100,materials:'140019_5|140027_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140065] = {id:140065,showType:'2_3',silver:20000,rate:100,materials:'140019_5|140027_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140066] = {id:140066,showType:'2_3',silver:20000,rate:100,materials:'140019_5|140027_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140067] = {id:140067,showType:'2_3',silver:20000,rate:100,materials:'140019_5|140027_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140068] = {id:140068,showType:'2_3',silver:20000,rate:100,materials:'140019_5|140027_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140069] = {id:140069,showType:'2_3',silver:20000,rate:100,materials:'140019_5|140027_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140070] = {id:140070,showType:'2_3',silver:20000,rate:100,materials:'140019_5|140027_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140071] = {id:140071,showType:'2_3',silver:20000,rate:100,materials:'140019_5|140027_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140072] = {id:140072,showType:'2_4',silver:25000,rate:100,materials:'140020_5|140028_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140073] = {id:140073,showType:'2_4',silver:25000,rate:100,materials:'140020_5|140028_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140074] = {id:140074,showType:'2_4',silver:25000,rate:100,materials:'140020_5|140028_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140075] = {id:140075,showType:'2_4',silver:25000,rate:100,materials:'140020_5|140028_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140076] = {id:140076,showType:'2_4',silver:25000,rate:100,materials:'140020_5|140028_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140077] = {id:140077,showType:'2_4',silver:25000,rate:100,materials:'140020_5|140028_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140078] = {id:140078,showType:'2_4',silver:25000,rate:100,materials:'140020_5|140028_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140079] = {id:140079,showType:'2_4',silver:25000,rate:100,materials:'140020_5|140028_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140080] = {id:140080,showType:'2_4',silver:25000,rate:100,materials:'140020_5|140028_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[140081] = {id:140081,showType:'2_4',silver:25000,rate:100,materials:'140020_5|140028_1',description:'合成一件神器'};
+﻿PropsArtificeConfig[70001] = {id:70001,showType:'0_1',silver:2000,rate:1000,materials:'70002_10',description:'需要十枚坐骑经验丹碎片'};
+﻿PropsArtificeConfig[50002] = {id:50002,showType:'0_1',silver:2000,rate:1000,materials:'50001_2',description:'需要两枚低级经验丹合成，使用后可以获得部分经验'};
+﻿PropsArtificeConfig[50018] = {id:50018,showType:'0_1',silver:2000,rate:1000,materials:'50019_2',description:'需要两枚1.5倍打坐经验丹合成'};
+﻿PropsArtificeConfig[140024] = {id:140024,showType:'3_0',silver:20000,rate:1000,materials:'170049_10|170057_1',description:'将10个神器之魂碎片合成为一个神器之魂,合成当前神器之魂需要融合之心'};
+﻿PropsArtificeConfig[140025] = {id:140025,showType:'3_0',silver:20000,rate:1000,materials:'170050_10|170057_1',description:'将11个神器之魂碎片合成为一个神器之魂,合成当前神器之魂需要融合之心'};
+﻿PropsArtificeConfig[140026] = {id:140026,showType:'3_0',silver:20000,rate:1000,materials:'170051_10|170057_1',description:'将12个神器之魂碎片合成为一个神器之魂,合成当前神器之魂需要融合之心'};
+﻿PropsArtificeConfig[140027] = {id:140027,showType:'3_0',silver:20000,rate:1000,materials:'170052_10|170057_1',description:'将13个神器之魂碎片合成为一个神器之魂,合成当前神器之魂需要融合之心'};
+﻿PropsArtificeConfig[140028] = {id:140028,showType:'3_0',silver:20000,rate:1000,materials:'170053_10|170057_1',description:'将14个神器之魂碎片合成为一个神器之魂,合成当前神器之魂需要融合之心'};
+﻿PropsArtificeConfig[140029] = {id:140029,showType:'3_0',silver:20000,rate:1000,materials:'170054_10|170057_1',description:'将15个神器之魂碎片合成为一个神器之魂,合成当前神器之魂需要融合之心'};
+﻿PropsArtificeConfig[140030] = {id:140030,showType:'3_0',silver:20000,rate:1000,materials:'170055_10|170057_1',description:'将16个神器之魂碎片合成为一个神器之魂,合成当前神器之魂需要融合之心'};
+﻿PropsArtificeConfig[140031] = {id:140031,showType:'3_0',silver:20000,rate:1000,materials:'170056_10|170057_1',description:'将17个神器之魂碎片合成为一个神器之魂,合成当前神器之魂需要融合之心'};

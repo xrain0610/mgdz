@@ -1,0 +1,17 @@
+﻿import flash.utils.Dictionary;
+var EquipStarConfig:Dictionary = new Dictionary();
+EquipStarConfig[0] = {id:0,attrValueRatio:0.12,minAttrValue:1,itemId:30001,itemCount:1,silver:0.75 ,rate:1000,failureStar:0};
+EquipStarConfig[1] = {id:1,attrValueRatio:0.18,minAttrValue:2,itemId:30002,itemCount:1,silver:1.01 ,rate:1000,failureStar:1};
+EquipStarConfig[2] = {id:2,attrValueRatio:0.27,minAttrValue:3,itemId:30003,itemCount:1,silver:1.37 ,rate:1000,failureStar:2};
+EquipStarConfig[3] = {id:3,attrValueRatio:0.41,minAttrValue:4,itemId:30004,itemCount:1,silver:1.85 ,rate:1000,failureStar:3};
+EquipStarConfig[4] = {id:4,attrValueRatio:0.61,minAttrValue:5,itemId:30005,itemCount:1,silver:2.49 ,rate:1000,failureStar:3};
+EquipStarConfig[5] = {id:5,attrValueRatio:0.92,minAttrValue:6,itemId:30006,itemCount:1,silver:3.36 ,rate:1000,failureStar:4};
+EquipStarConfig[6] = {id:6,attrValueRatio:1.38,minAttrValue:7,itemId:30007,itemCount:1,silver:4.54 ,rate:1000,failureStar:5};
+EquipStarConfig[7] = {id:7,attrValueRatio:2.07,minAttrValue:8,itemId:30008,itemCount:1,silver:6.13 ,rate:1000,failureStar:6};
+EquipStarConfig[8] = {id:8,attrValueRatio:3.11,minAttrValue:9,itemId:30009,itemCount:1,silver:8.27 ,rate:1000,failureStar:7};
+EquipStarConfig[9] = {id:9,attrValueRatio:4.67,minAttrValue:10,itemId:30010,itemCount:1,silver:10.34 ,rate:1000,failureStar:8};
+EquipStarConfig[10] = {id:10,attrValueRatio:7,minAttrValue:11,itemId:30011,itemCount:1,silver:14.48 ,rate:1000,failureStar:9};
+EquipStarConfig[11] = {id:11,attrValueRatio:8,minAttrValue:12,itemId:30017,itemCount:1,silver:20.27 ,rate:1000,failureStar:10};
+EquipStarConfig[12] = {id:12,attrValueRatio:9,minAttrValue:13,itemId:30028,itemCount:1,silver:28.38 ,rate:1000,failureStar:11};
+EquipStarConfig[13] = {id:13,attrValueRatio:10,minAttrValue:14,itemId:30029,itemCount:1,silver:39.73 ,rate:1000,failureStar:12};
+EquipStarConfig[14] = {id:14,attrValueRatio:11,minAttrValue:15,itemId:30032,itemCount:1,silver:55.63 ,rate:1000,failureStar:13};

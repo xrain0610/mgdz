@@ -1,0 +1,12 @@
+import flash.utils.Dictionary;
+var PracticeRewardConfig:Dictionary = new Dictionary();
+PracticeRewardConfig[1] = {id:1,silverExpr:'160*n2*(1+n1*0.75)',expExpr:'Math.floor(2600*Math.pow(1.02,n2)*(1+n1*0.75))'};
+PracticeRewardConfig[2] = {id:2,silverExpr:'213*n2*(1+n1*0.75)',expExpr:'Math.floor(3467*Math.pow(1.02,n2)*(1+n1*0.75))'};
+PracticeRewardConfig[3] = {id:3,silverExpr:'267*n2*(1+n1*0.75)',expExpr:'Math.floor(4333*Math.pow(1.02,n2)*(1+n1*0.75))'};
+PracticeRewardConfig[4] = {id:4,silverExpr:'320*n2*(1+n1*0.75)',expExpr:'Math.floor(5200*Math.pow(1.02,n2)*(1+n1*0.75))'};
+PracticeRewardConfig[5] = {id:5,silverExpr:'373*n2*(1+n1*0.75)',expExpr:'Math.floor(6067*Math.pow(1.02,n2)*(1+n1*0.75))',propsId:'120033_1_1'};
+PracticeRewardConfig[6] = {id:6,silverExpr:'427*n2*(1+n1*0.75)',expExpr:'Math.floor(6933*Math.pow(1.02,n2)*(1+n1*0.75))'};
+PracticeRewardConfig[7] = {id:7,silverExpr:'480*n2*(1+n1*0.75)',expExpr:'Math.floor(7800*Math.pow(1.02,n2)*(1+n1*0.75))'};
+PracticeRewardConfig[8] = {id:8,silverExpr:'533*n2*(1+n1*0.75)',expExpr:'Math.floor(8667*Math.pow(1.02,n2)*(1+n1*0.75))'};
+PracticeRewardConfig[9] = {id:9,silverExpr:'587*n2*(1+n1*0.75)',expExpr:'Math.floor(9533*Math.pow(1.02,n2)*(1+n1*0.75))'};
+PracticeRewardConfig[10] = {id:10,silverExpr:'640*n2*(1+n1*0.75)',expExpr:'Math.floor(10400*Math.pow(1.02,n2)*(1+n1*0.75))',propsId:'120033_1_1'};

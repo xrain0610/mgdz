@@ -1,0 +1,250 @@
+﻿import flash.utils.Dictionary;
+var PetConfig:Dictionary = new Dictionary();
+PetConfig[1] = {id:1,number:1001,name:'古怪精灵',petDescription:'墨绿的外表散发着森林气息',talk:'1_2_3_4_5_6',job:1,model:1,icon:1,famous:false,skill:'10102_1',dropNo:1001};
+PetConfig[3] = {id:3,number:1003,name:'萤火仙灵',petDescription:'古灵精怪的捣蛋鬼',talk:'1_2_3_4_5_6',job:3,model:2,icon:2,famous:false,skill:'10102_1',dropNo:1001};
+PetConfig[4] = {id:4,number:1004,name:'快乐大脚',petDescription:'不会跳舞，但我可以保护你',talk:'1_2_3_4_5_6',job:1,model:3,icon:3,famous:false,skill:'1005_1',dropNo:1001};
+PetConfig[5] = {id:5,number:1005,name:'黑暗小恶魔',petDescription:'不要看我小，小心我把你吃掉',talk:'1_2_3_4_5_6',job:3,model:4,icon:4,famous:false,skill:'1005_1',dropNo:1001};
+PetConfig[8] = {id:8,number:1008,name:'无敌小超人',petDescription:'我要把你们都变成吃的',talk:'1_2_3_4_5_6',job:4,model:5,icon:5,famous:false,skill:'1005_1',dropNo:1001};
+PetConfig[9] = {id:9,number:1009,name:'拉风圣斗士',petDescription:'金色的铠甲下的忠实伙伴',talk:'1_2_3_4_5_6',job:2,model:6,icon:6,famous:false,skill:'1005_1',dropNo:1001};
+PetConfig[12] = {
+id:12,
+number:1012,
+name:'未来女战士',
+petDescription:'武装到眼睛的未来科技',
+talk:'1_2_3_4_5_6',
+job:4,
+model:8,
+icon:8,
+famous:false,
+skill:'1005_1',
+dropNo:1001
+};
+PetConfig[14] = {
+id:14,
+number:1014,
+name:'小小恶魔狮',
+petDescription:'其实我是一朵小太阳花',
+talk:'1_2_3_4_5_6',
+job:4,
+model:9,
+icon:9,
+famous:false,
+skill:'1005_1',
+dropNo:1001
+};
+PetConfig[15] = {
+id:15,
+number:1015,
+name:'赛亚战士',
+petDescription:'来自贝吉塔行星的超级赛亚战士',
+talk:'1_2_3_4_5_6',
+job:2,
+model:10,
+icon:10,
+famous:false,
+skill:'1005_1',
+dropNo:1001
+};
+PetConfig[16] = {
+id:16,
+number:1016,
+name:'小豆蜂',
+petDescription:'我是一只小小牛，但我可以飞',
+talk:'1_2_3_4_5_6',
+job:3,
+model:11,
+icon:11,
+famous:false,
+skill:'1005_1',
+dropNo:1001
+};
+PetConfig[17] = {
+id:17,
+number:1017,
+name:'黑白爵',
+petDescription:'看什么，没见过食人花吗',
+talk:'1_2_3_4_5_6',
+job:2,
+model:16,
+icon:16,
+famous:false,
+skill:'1005_1',
+dropNo:1001
+};
+PetConfig[19] = {
+id:19,
+number:1019,
+name:'大蛇无双',
+petDescription:'无声无息，杀人于无形',
+talk:'1_2_3_4_5_6',
+job:1,
+model:17,
+icon:17,
+famous:false,
+skill:'1005_1',
+dropNo:1001
+};
+PetConfig[20] = {
+id:20,
+number:1020,
+name:'野蛮女仆',
+petDescription:'一个美貌与实力俱佳的女保镖',
+talk:'1_2_3_4_5_6',
+job:2,
+model:14,
+icon:14,
+famous:false,
+skill:'1005_1',
+dropNo:1001
+};
+PetConfig[21] = {
+id:21,
+number:1021,
+name:'冰龙东狮',
+petDescription:'超年轻超有潜力的死神东狮',
+talk:'1_2_3_4_5_6',
+job:4,
+model:19,
+icon:19,
+famous:false,
+skill:'1005_1',
+dropNo:1001
+};
+PetConfig[22] = {
+id:22,
+number:1022,
+name:'假面死神',
+petDescription:'终极状态的守护者',
+talk:'1_2_3_4_5_6',
+job:3,
+model:18,
+icon:18,
+famous:false,
+skill:'1005_1',
+dropNo:1001
+};
+PetConfig[23] = {
+id:23,
+number:1023,
+name:'四尾火狐',
+petDescription:'强大的实力而且绝对的衷心',
+talk:'1_2_3_4_5_6',
+job:1,
+model:12,
+icon:12,
+famous:true,
+skill:'1101_1',
+dropNo:1003,
+qualityLevel:4
+};
+PetConfig[24] = {
+id:24,
+number:1024,
+name:'妖翼佐助',
+petDescription:'邪恶的印记激发强大魔力',
+talk:'1_2_3_4_5_6',
+job:2,
+model:13,
+icon:13,
+famous:true,
+skill:'1201_1',
+dropNo:1004,
+qualityLevel:4
+};
+PetConfig[25] = {
+id:25,
+number:1025,
+name:'恶鲨鬼鲛',
+petDescription:'要伤害我的伙伴，先问过我的刀',
+talk:'1_2_3_4_5_6',
+job:1,
+model:15,
+icon:15,
+famous:true,
+skill:'1103_1',
+dropNo:1005,
+qualityLevel:4
+};
+PetConfig[26] = {
+id:26,
+number:1026,
+name:'光明高达',
+petDescription:'超越现实的未来科技战士',
+talk:'1_2_3_4_5_6',
+job:4,
+model:20,
+icon:20,
+famous:true,
+skill:'105_1|1005_1',
+dropNo:1006,
+qualityLevel:5
+};
+PetConfig[27] = {
+id:27,
+number:1027,
+name:'蒙面兔女郎',
+petDescription:'神秘的面纱下究竟是怎样的容颜呢',
+talk:'1_2_3_4_5_6',
+job:1,
+model:7,
+icon:7,
+famous:false,
+skill:'1005_1',
+dropNo:1002
+};
+PetConfig[28] = {
+id:28,
+number:1028,
+name:'黑暗高达',
+petDescription:'强大黑暗破坏机器战士',
+talk:'1_2_3_4_5_6',
+job:4,
+model:21,
+icon:21,
+famous:true,
+skill:'1106_1',
+dropNo:1007,
+qualityLevel:4
+};
+PetConfig[29] = {
+id:23,
+number:1029,
+name:'四尾火狐',
+petDescription:'强大的实力而且绝对的衷心',
+talk:'1_2_3_4_5_6',
+job:1,
+model:12,
+icon:12,
+famous:true,
+skill:'1101_1|1005_1',
+dropNo:1008,
+qualityLevel:4
+};
+PetConfig[30] = {
+id:24,
+number:1030,
+name:'妖翼佐助',
+petDescription:'邪恶的印记激发强大魔力',
+talk:'1_2_3_4_5_6',
+job:2,
+model:13,
+icon:13,
+famous:true,
+skill:'1105_1|1005_1',
+dropNo:1009,
+qualityLevel:4
+};
+PetConfig[31] = {
+id:25,
+number:1031,
+name:'恶鲨鬼鲛',
+petDescription:'要伤害我的伙伴，先问过我的刀',
+talk:'1_2_3_4_5_6',
+job:1,
+model:15,
+icon:15,
+famous:true,
+skill:'1103_1|1005_1',
+dropNo:1010,
+qualityLevel:4
+};

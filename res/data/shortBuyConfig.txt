@@ -1,0 +1,8 @@
+﻿import flash.utils.Dictionary;
+var shortbuyConfig:Dictionary = new Dictionary();
+shortbuyConfig[0] = {id:80};
+shortbuyConfig[1] = {id:81};
+shortbuyConfig[2] = {id:82};
+shortbuyConfig[3] = {id:83};
+shortbuyConfig[4] = {id:84};
+shortbuyConfig[5] = {id:85};
